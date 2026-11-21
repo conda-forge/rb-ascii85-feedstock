@@ -1,5 +1,5 @@
 {% set name = "ascii85" %}
-{% set version = "2.0.1" %}
+{% set version = "2.0.2" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://rubygems.org/downloads/Ascii85-{{ version }}.gem
-    sha256: 15cb5d941808543cbb9e7e6aea3c8ec3877f154c3461e8b3673e97f7ecedbe5a
+    sha256: b3e3101d74a0af28e4bdad58778758c7418112917d11db0a79e89af1e8f336e1
   - path: ascii85.bat
 
 build:
